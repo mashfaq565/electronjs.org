@@ -149,3 +149,16 @@
   margin-right: auto;
   margin-left: auto;
 }
+
+.flash {
+  position: relative;
+  padding: $spacer3;
+  color: $blue-800;
+  background-color: $blue-100;
+  border: 1px solid $border-black-fade;
+  border-radius: 3px;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
